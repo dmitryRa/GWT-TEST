@@ -1,6 +1,28 @@
-*.class
+###########
+# IDEA #
+###########
 
-# Package Files #
+out/*
+.idea/*
+*.iml
+
+###########
+# MAVEN #
+###########
+
+target/*
+
+###########
+# DOLPHIN #
+###########
+
+.directory
+
+###########
+# JAVA #
+###########
+
+*.class
 *.jar
-*.war
 *.ear
+*.war
